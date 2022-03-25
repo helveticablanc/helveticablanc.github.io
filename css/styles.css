@@ -66,10 +66,10 @@ nav ul {padding: 0;}
 
 nav ul.logo {
 	margin: 0 18px 0 0;
-	padding: 0 18px 0 0;
+	padding: 0 0px 0 0;
 }
 
-nav ul.logo a img {
+nav ul.logo img {
 	width: 80px;
 	float: right;
 }
@@ -89,7 +89,7 @@ nav ul li a:hover:after, ul li.here a:after {
 	margin-top: 1.5px;
 }
 
-nav ul.logo li a:hover:after {content: none;}
+nav ul li h1 a:hover:after {content: none;}
 
 ul li.listing {background: url(../img/spacer-dark.png) repeat-x 0 50%;}
 
@@ -139,6 +139,10 @@ h1, h2 {
 	font-size: 32px;
 	line-height: 36px;
 	margin: 0 0 24px 25%;
+}
+
+nav h1 {
+	margin: 3px 0 24px -12px;
 }
 
 h3 {
@@ -226,9 +230,11 @@ footer a.merveilles {
 		padding: 0 0 0 12px;
 	}
 	
-	nav ul.logo {margin: 0 0 12px 12px;}
+	nav ul.logo {margin: 0 0 0 12px;}
 	
-	nav ul.logo a img {float: none;}
+	nav ul.logo img {float: none;}
+
+	nav h1 {margin: 0 0 24px -12px;}
 	
 	.col75p, footer, h1, h2, header, hr, main, figure.tall, p.mininav, p.more, p.pagination {margin-left: 0;}
 }
