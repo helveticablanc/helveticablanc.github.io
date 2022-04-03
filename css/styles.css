@@ -33,7 +33,7 @@ nav, ul.cards {
 	padding: 0 12px;
 }
 
-article, aside, figure, footer, h1, h2, header, hr, main, nav ul, p.mininav, p.more, p.pagination, ul.cards li {
+article, aside, figure, footer, h1, h2, header, hr, main, nav ul, p.subtitle, p.more, p.pagination, ul.cards li {
 	order: 0;
 	flex: 0 0 auto;
 	align-self: auto;
@@ -52,7 +52,7 @@ figure img {
 
 .col33 {width: 33%;}
 
-.col50, footer, header, main, p.mininav, p.more {width: 50%;}
+.col50, footer, header, main, p.subtitle, p.more {width: 50%;}
 
 .col75p, footer, header, main, figure.tall {margin-left: 25%;}
 
@@ -150,7 +150,7 @@ h3 {
 	margin: 0 0 12px 0;
 }
 
-p.mininav {margin: 0 0 0px 25%;}
+p.subtitle {margin: 0 0 0px 25%;}
 
 p.more, p.pagination {margin: 0 0 24px 25%;}
 
@@ -223,7 +223,7 @@ footer a.merveilles {
 }
 
 @media only screen and (max-width: 648px) {
-	.col25, .col33, .col50, .col75, .col75p, article, aside, figure, figure.tall, footer, h1, h2, header, hr, main, nav, nav ul.logo, p.mininav, p.more, p.pagination, ul.cards li {width: 100%;}
+	.col25, .col33, .col50, .col75, .col75p, article, aside, figure, figure.tall, footer, h1, h2, header, hr, main, nav, nav ul.logo, p.subtitle, p.more, p.pagination, ul.cards li {width: 100%;}
 	
 	nav ul {
 		width: 50%;
@@ -236,7 +236,7 @@ footer a.merveilles {
 
 	nav h1 {margin: 0 0 24px -12px;}
 	
-	.col75p, footer, h1, h2, header, hr, main, figure.tall, p.mininav, p.more, p.pagination {margin-left: 0;}
+	.col75p, footer, h1, h2, header, hr, main, figure.tall, p.subtitle, p.more, p.pagination {margin-left: 0;}
 }
 
 @media (prefers-color-scheme: dark) {
