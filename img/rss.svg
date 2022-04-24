@@ -7,7 +7,7 @@
 
   <style type="text/css">
     .button {stroke: none; fill: #241e1a;}
-    .symbol {stroke: none; fill: #f3e9e1;}
+    .symbol {stroke: none; fill: #d7cfcb;}
   </style>
 
   <rect   class="button" width="8" height="8" rx="1.5" />

@@ -3,7 +3,7 @@
 	margin: 0;
 	padding: 0;
 	color: #241e1a;
-	background: #f3e9e1;
+	background: #d7cfcb;
 }
 
 html {
@@ -38,14 +38,6 @@ article, aside, figure, footer, h1, h2, header, hr, main, nav ul, p.subtitle, p.
 	flex: 0 0 auto;
 	align-self: auto;
 	padding: 0 12px;
-}
-
-ul.cards li img, a img {
-	border: 1px solid #241e1a;
-}
-
-figure img {
-	border: none;
 }
 
 .col25, aside, nav ul, p.pagination {width: 25%;}
@@ -93,15 +85,15 @@ nav ul li a:hover:after, ul li.here a:after {
 
 nav ul li h1 a:hover:after {content: none;}
 
-ul li.listing {background: url(../img/spacer-dark.png) repeat-x 0 50%;}
+ul li.listing {background: url(../img/spacer.png) repeat-x 0 50%;}
 
 ul li.listing a {
-	background: #f3e9e1;
+	background: #d7cfcb;
 	padding-right: 10px;
 }
 
 ul li.listing span {
-	background: #f3e9e1;
+	background: #d7cfcb;
 	float: right;
 	padding-left: 10px;
 }
@@ -169,7 +161,7 @@ a[target="_blank"]:after {content: " →";}
 p.more a, p.pagination a, a.blocklink {
     display: block;
     color: #241e1a;
-    background: ##f3e9e1;
+    background: ##d7cfcb;
     border: 1px solid #241e1a;
     padding: 12px;
     margin: 6px 0;
@@ -276,39 +268,4 @@ footer a.merveilles {
 	nav h1 {margin: 0 0 24px -12px;}
 	
 	.col50p, .col75p, footer, h1, h2, header, hr, main, figure.tall, p.subtitle, p.more, p.pagination {margin-left: 0;}
-}
-
-@media (prefers-color-scheme: dark) {
-	* {
-		color: #f3e9e1;
-		background: #241e1a;
-	}
-
-	ul.cards li img, figure a img, aside a img {
-		border: 1px solid #f3e9e1;
-	}
-
-	figure img {
-		border:  none;
-	}
-
-	p.more a, p.pagination a, a.blocklink {
-	    color: #f3e9e1;
-	    background: ##241e1a;
-	    border: 1px solid #f3e9e1;
-	    padding: 12px;
-	    margin: 6px 0;
-	}
-		
-	hr {background-image: url(../img/cross-dark.svg);}
-	
-	ul li.listing {background: url(../img/spacer-dark.png) repeat-x 0 50%;}
-	
-	ul li.listing a, ul li.listing span {background: #241e1a;}
-	
-	footer a.cc {background-image: url(../img/cc-dark.svg);}
-
-	footer a.rss {background-image: url(../img/rss-dark.svg);}
-
-	footer a.merveilles {background-image: url(../img/merveilles-dark.svg);}
 }
