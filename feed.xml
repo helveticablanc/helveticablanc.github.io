@@ -8,10 +8,11 @@
 		rel="self" type="application/rss+xml" />
 
 		<item>
-			<title>New Artwork: Vessel 3 and Morningstar</title>
+			<title>Update: 2022 04 30</title>
 			<link>http://www.helveticablanc.com</link>
+			<description>We're now live on the main domain! Finally! I've made some more small changes, and I think everything is nice and stable now. New artwork: Loci 2 and Communion 4</description>
 			<guid>http://www.helveticablanc.com</guid>
-			<pubDate>Sat, 16 Apr 2022 18:00:00 PST</pubDate>
+			<pubDate>Sat, 30 Apr 2022 15:00:00 PST</pubDate>
 		</item>
 	
 	</channel>
