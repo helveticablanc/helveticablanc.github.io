@@ -58,6 +58,15 @@ article, aside, figure, footer, h1, h2, header, hr, main, nav ul, p.subtitle, p.
 
 nav ul {padding: 0;}
 
+nav ul:nth-child(2) {
+	margin-bottom: 0;
+}
+
+nav ul:nth-child(3) {
+	margin-left: 25%;
+	padding-left: 18px;
+}
+
 nav ul.logo {
 	margin: 0 18px 0 0;
 	padding: 0 0px 0 0;
@@ -67,6 +76,8 @@ nav ul.logo img {
 	width: 80px;
 	float: right;
 }
+
+/*nav ul:last-child {width: 20%;}*/
 
 nav ul li {
 	margin-bottom: 6px;
@@ -156,7 +167,7 @@ p.more a:after, p.pagination + p.pagination a:after {content: " ↓";}
 
 a:hover {text-decoration: none;}
 
-a[target="_blank"]:after {content: " →";}
+a[target="_blank"] {text-decoration-style: double;}
 
 p.more a, p.pagination a, a.blocklink {
     display: block;
@@ -181,8 +192,8 @@ ul.cards li:last-child {margin-bottom: 24px;}
 
 main ul li::before {
   content: "⬥";
-  padding-right: 0px;
-  margin-left: -20px;
+  padding-right: 12px;
+  margin-left: -24px;
 }
 
 main ul.cards li::before {
@@ -267,5 +278,9 @@ footer a.merveilles {
 
 	nav h1 {margin: 0 0 24px -12px;}
 	
-	.col50p, .col75p, footer, h1, h2, header, hr, main, figure.tall, p.subtitle, p.more, p.pagination {margin-left: 0;}
+	nav ul:nth-child(2) {width: 51%;}
+
+	nav ul:nth-child(3) {padding-left: 12px;}
+
+	.col50p, .col75p, nav ul:nth-child(3), footer, h1, h2, header, hr, main, figure.tall, p.subtitle, p.more, p.pagination {margin-left: 0;}
 }
