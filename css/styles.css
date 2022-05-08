@@ -206,8 +206,12 @@ main ul.cards {
 
 main p.more {
 	width: 100%;
-	margin: 0;
+	margin: 0 0 24px 0;
 	padding: 0;
+}
+
+main p.more:last-child {
+	margin-bottom: 0;
 }
 
 img {
