@@ -8,6 +8,14 @@
 		rel="self" type="application/rss+xml" />
 
 		<item>
+			<title>Update: 2022 09 24</title>
+			<link>http://www.helveticablanc.com</link>
+			<description>New artwork: Adjurator 2 and Drawn</description>
+			<guid>http://www.helveticablanc.com</guid>
+			<pubDate>Sat, 24 Sep 2022 15:00:00 PST</pubDate>
+		</item>
+
+		<item>
 			<title>Update: 2022 09 17</title>
 			<link>http://www.helveticablanc.com</link>
 			<description>New artwork: Hierophany 5 and Collection</description>
