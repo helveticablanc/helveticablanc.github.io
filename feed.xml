@@ -8,6 +8,14 @@
 		rel="self" type="application/rss+xml" />
 
 		<item>
+			<title>Update: 2022 12 02</title>
+			<link>http://www.helveticablanc.com</link>
+			<description>New artwork: Fall 2 and Icarian 3</description>
+			<guid>http://www.helveticablanc.com</guid>
+			<pubDate>Fri, 02 Dec 2022 15:00:00 PST</pubDate>
+		</item>
+
+		<item>
 			<title>Update: 2022 11 26</title>
 			<link>http://www.helveticablanc.com</link>
 			<description>New artwork: Saint 2 and Augury</description>
