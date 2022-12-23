@@ -8,6 +8,14 @@
 		rel="self" type="application/rss+xml" />
 
 		<item>
+			<title>Update: 2022 12 23</title>
+			<link>http://www.helveticablanc.com</link>
+			<description>I've done a little rearranging in preparation for some big website updates in the new year. I've moved some sub-pages &mdash; such as Licensing &mdash; from About to Artwork. I've also added a new Influences page, which includes a ton of links to other artists that you should check out! New artwork: Wormwood 3 and Vow</description>
+			<guid>http://www.helveticablanc.com</guid>
+			<pubDate>Fri, 23 Dec 2022 15:00:00 PST</pubDate>
+		</item>
+
+		<item>
 			<title>Update: 2022 12 15</title>
 			<link>http://www.helveticablanc.com</link>
 			<description>New artwork: Found and Lectio 2</description>
