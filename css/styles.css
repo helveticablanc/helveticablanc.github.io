@@ -190,11 +190,19 @@ a[target="_blank"] {text-decoration-style: double;}
 
 p.more a, p.pagination a, a.blocklink {
     display: block;
-    color: #241e1a;
-    background: ##d7cfcb;
+    color: #d7cfcb;
+    background: #241e1a;
     border: 1px solid #241e1a;
     padding: 12px;
     margin: 6px 0;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+p.more a:hover, p.pagination a:hover, a.blocklink:hover {
+    color: #241e1a;
+    background: #d7cfcb;
+    border: 1px solid #241e1a;
 }
 
 ul {
@@ -299,7 +307,7 @@ footer a.merveilles {
 	
 	nav ul.logo img {float: none;}
 
-	nav h1 {margin: 0 0 24px -15px;}
+	nav h1 {margin: 0 0 28px -15px;}
 	
 	nav ul:nth-child(2) {width: 51%;}
 
