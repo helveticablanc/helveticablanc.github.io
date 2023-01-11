@@ -68,7 +68,7 @@ nav ul:nth-child(3) {
 }
 
 nav ul.logo {
-	margin: 0 18px 0 0;
+	margin: 3px 18px 0 0;
 	padding: 0 0px 0 0;
 }
 
@@ -88,7 +88,7 @@ nav ul li:last-child {
 }
 
 nav ul li a:hover:after, ul li.here a:after {
-	content: "⬥";
+	content: "✸";
 	position: absolute;
 	padding-left: 6px;
 	margin-top: 0px;
@@ -135,7 +135,22 @@ main hr {
 	margin: 0 auto 24px 0;
 }
 
-h1, h2, h3 {
+/* title font */
+@font-face {
+ 	font-family: 'Basteleur';
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+  src: url(../fonts/basteleur-bold.woff2) format('woff2');
+}
+
+h1, h2 {
+	font-family: "Basteleur", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+
+h3 {
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 900;
 }
@@ -147,8 +162,12 @@ h1, h2 {
 }
 
 nav h1 {
-	margin: 3px 0 24px -12px;
+	font-size: 42px;
+	line-height: 45px;
+	margin: 0px 0 24px -15px;
 }
+
+nav h1 a {text-decoration: none;}
 
 h3 {
 	font-size: 18px;
@@ -191,7 +210,7 @@ ul li:last-child, ol li:last-child {margin-bottom: 0;}
 ul.cards li:last-child {margin-bottom: 24px;}
 
 main ul li::before {
-  content: "⬥";
+  content: "✸";
   padding-right: 12px;
   margin-left: -24px;
 }
@@ -280,7 +299,7 @@ footer a.merveilles {
 	
 	nav ul.logo img {float: none;}
 
-	nav h1 {margin: 0 0 24px -12px;}
+	nav h1 {margin: 0 0 24px -15px;}
 	
 	nav ul:nth-child(2) {width: 51%;}
 
