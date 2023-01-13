@@ -8,6 +8,14 @@
 		rel="self" type="application/rss+xml" />
 
 		<item>
+			<title>Update: 2023 01 13</title>
+			<link>http://www.helveticablanc.com</link>
+			<description>New artwork: Altar and Inquiry 4</description>
+			<guid>http://www.helveticablanc.com/index.html?20230113</guid>
+			<pubDate>Fri, 13 Jan 2023 23:00:00 GMT</pubDate>
+		</item>
+
+		<item>
 			<title>Update: 2023 01 06</title>
 			<link>http://www.helveticablanc.com</link>
 			<description>I believe I've fixed an error in my RSS configuration! For folks following me in that way, lemme know if this update shows up for you! New artwork: Behold 3 and Epistle 3, New zine: HOLY! 15</description>
