@@ -8,6 +8,14 @@
 		rel="self" type="application/rss+xml" />
 
 		<item>
+			<title>Update: 2023 01 20</title>
+			<link>http://www.helveticablanc.com</link>
+			<description>New artwork: Voice and Drawn 2</description>
+			<guid>http://www.helveticablanc.com/index.html?20230120</guid>
+			<pubDate>Fri, 20 Jan 2023 23:00:00 GMT</pubDate>
+		</item>
+
+		<item>
 			<title>Update: 2023 01 13</title>
 			<link>http://www.helveticablanc.com</link>
 			<description>New artwork: Altar and Inquiry 4</description>
