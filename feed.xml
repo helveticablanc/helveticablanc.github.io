@@ -8,6 +8,14 @@
 		rel="self" type="application/rss+xml" />
 
 		<item>
+			<title>Update: 2023 02 03</title>
+			<link>http://www.helveticablanc.com</link>
+			<description>New artwork: Liminal 2 and Ponder 2</description>
+			<guid>http://www.helveticablanc.com/index.html?20230203</guid>
+			<pubDate>Fri, 03 Feb 2023 23:00:00 GMT</pubDate>
+		</item>
+
+		<item>
 			<title>Update: 2023 01 28</title>
 			<link>http://www.helveticablanc.com</link>
 			<description>New artwork: Demonium 1-7</description>
