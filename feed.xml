@@ -8,6 +8,14 @@
 		rel="self" type="application/rss+xml" />
 
 		<item>
+			<title>Update: 2023 03 03</title>
+			<link>http://www.helveticablanc.com</link>
+			<description>New artwork: Wait 2 and Transform</description>
+			<guid>http://www.helveticablanc.com/index.html?20230303</guid>
+			<pubDate>Fri, 03 Mar 2023 23:00:00 GMT</pubDate>
+		</item>
+
+		<item>
 			<title>Update: 2023 02 24</title>
 			<link>http://www.helveticablanc.com</link>
 			<description>New artwork: Illogos 2 and Form</description>
