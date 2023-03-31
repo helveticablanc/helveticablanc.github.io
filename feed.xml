@@ -8,6 +8,14 @@
 		rel="self" type="application/rss+xml" />
 
 		<item>
+			<title>Update: 2023 03 31</title>
+			<link>http://www.helveticablanc.com</link>
+			<description>New artwork: Blessing 5 and Curse 3</description>
+			<guid>http://www.helveticablanc.com/index.html?20230331</guid>
+			<pubDate>Fri, 31 Mar 2023 23:00:00 GMT</pubDate>
+		</item>
+
+		<item>
 			<title>Update: 2023 03 24</title>
 			<link>http://www.helveticablanc.com</link>
 			<description>New artwork: Penitent 3 and Cherub</description>
