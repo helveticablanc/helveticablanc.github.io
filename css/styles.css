@@ -3,13 +3,13 @@
 	margin: 0;
 	padding: 0;
 	color: #241e1a;
-	background: #c8bfb8;
 }
 
 html {
 	max-width: 948px;
 	margin: 0 auto;
 	padding: 48px 24px 48px 24px;
+	background: #c8bfb8;
 }
 
 body {
@@ -207,7 +207,7 @@ p.more a, p.pagination a, a.blocklink {
 }
 
 p.more a:hover, p.pagination a:hover, a.blocklink:hover {
-    color: #241e1a;
+    color: #241e1a !important;
     background: transparent;
     border: 1px solid #241e1a;
 }
@@ -250,7 +250,6 @@ main p.more:last-child {
 
 img {
 	max-width: 100%;
-	/*max-height: 80vh;*/
 }
 
 figure { text-align: center;}
@@ -298,6 +297,31 @@ footer a.merveilles {
   src: url(../fonts/charm-latin.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+
+html.white {background: #f3e9e1;}
+html.white ul li.listing a {background: #f3e9e1;}
+html.white ul li.listing span {background: #f3e9e1;}
+html.white p.more a, html.white p.pagination a, html.white a.blocklink {color: #f3e9e1;}
+
+html.red {background: #cd5153;}
+html.red ul li.listing a {background: #cd5153;}
+html.red ul li.listing span {background: #cd5153;}
+html.red p.more a, html.red p.pagination a, html.red a.blocklink {color: #cd5153;}
+
+html.yellow {background: #d7a334;}
+html.yellow ul li.listing a {background: #d7a334;}
+html.yellow ul li.listing span {background: #d7a334;}
+html.yellow p.more a, html.yellow p.pagination a, html.yellow a.blocklink {color: #d7a334;}
+
+html.blue {background: #a2b1af;}
+html.blue ul li.listing a {background: #a2b1af;}
+html.blue ul li.listing span {background: #a2b1af;}
+html.blue p.more a, html.blue p.pagination a, html.blue a.blocklink {color: #a2b1af;}
+
+html.green {background: #afa94d;}
+html.green ul li.listing a {background: #afa94d;}
+html.green ul li.listing span {background: #afa94d;}
+html.green p.more a, html.green p.pagination a, html.green a.blocklink {color: #afa94d;}
 
 .two {font-family: "Charm", cursive; font-size: 18px; line-height: 26px;}
 .notes {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; line-height: 22px;}
