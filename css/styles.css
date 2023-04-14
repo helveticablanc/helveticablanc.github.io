@@ -42,6 +42,8 @@ article, aside, figure, footer, h1, h2, header, hr, main, nav ul, p.subtitle, p.
 
 .col25, aside, nav ul, p.pagination {width: 25%;}
 
+.col25p {width: 25%;margin-left: 25%;}
+
 .col33 {width: 33%;}
 
 .col50, footer, header, main, p.subtitle, p.more {width: 50%;}
@@ -127,6 +129,7 @@ hr {
 	height: 24px;
 	margin: 24px auto 48px 25%;
 	border: none;
+	z-index: 10;
 }
 
 main hr {
@@ -195,7 +198,7 @@ a[target="_blank"]:after {
 	/*content: " →";*/
 }
 
-p.more a, p.pagination a, a.blocklink {
+p.more a, p.pagination a, a.blocklink, a.blocklinknull {
     display: block;
     color: #c8bfb8;
     background: #241e1a;
@@ -206,7 +209,7 @@ p.more a, p.pagination a, a.blocklink {
     text-decoration: none;
 }
 
-p.more a:hover, p.pagination a:hover, a.blocklink:hover {
+p.more a:hover, p.pagination a:hover, a.blocklink:hover, a.blocklinknull {
     color: #241e1a !important;
     background: transparent;
     border: 1px solid #241e1a;
@@ -327,7 +330,7 @@ html.green p.more a, html.green p.pagination a, html.green a.blocklink {color: #
 .notes {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; line-height: 22px;}
 
 @media only screen and (max-width: 648px) {
-	.col25, .col33, .col50, .col50p, .col75, .col75p, article, aside, figure, figure.tall, footer, h1, h2, header, hr, main, nav, nav ul.logo, p.subtitle, p.more, p.pagination, ul.cards li {width: 100%;}
+	.col25, .col25p, .col33, .col50, .col50p, .col75, .col75p, article, aside, figure, figure.tall, footer, h1, h2, header, hr, main, nav, nav ul.logo, p.subtitle, p.more, p.pagination, ul.cards li {width: 100%;}
 	
 	nav ul {
 		width: 50%;
@@ -344,5 +347,5 @@ html.green p.more a, html.green p.pagination a, html.green a.blocklink {color: #
 
 	nav ul:nth-child(3) {padding-left: 12px;}
 
-	.col50p, .col75p, nav ul:nth-child(3), footer, h1, h2, header, hr, main, figure.tall, p.subtitle, p.more, p.pagination {margin-left: 0;}
+	.col25p, .col50p, .col75p, nav ul:nth-child(3), footer, h1, h2, header, hr, main, figure.tall, p.subtitle, p.more, p.pagination {margin-left: 0;}
 }
