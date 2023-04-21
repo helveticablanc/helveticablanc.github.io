@@ -2,7 +2,6 @@
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
-	color: #241e1a;
 }
 
 html {
@@ -10,6 +9,7 @@ html {
 	margin: 0 auto;
 	padding: 48px 24px 48px 24px;
 	background: #c8bfb8;
+	color: #241e1a;
 }
 
 body {
@@ -33,7 +33,7 @@ nav, ul.cards {
 	padding: 0 12px;
 }
 
-article, aside, figure, footer, h1, h2, header, hr, main, nav ul, p.subtitle, p.more, p.pagination, ul.cards li {
+section, aside, figure, footer, h1, h2, header, hr, main, nav ul, p.subtitle, p.more, p.pagination, ul.cards li {
 	order: 0;
 	flex: 0 0 auto;
 	align-self: auto;
@@ -98,22 +98,9 @@ nav ul li a:hover:after, ul li.here a:after {
 
 nav ul li h1 a:hover:after {content: none;}
 
-ul li.listing {background: url(../img/spacer.png) repeat-x 0 50%;}
+section, section p, aside, figure, footer p, header, header p, hr, main, main p, main ul, aside p, nav ul, ul.cards li, aside ul, ol {margin-bottom: 24px;}
 
-ul li.listing a {
-	background: #c8bfb8;
-	padding-right: 10px;
-}
-
-ul li.listing span {
-	background: #c8bfb8;
-	float: right;
-	padding-left: 10px;
-}
-
-article, aside, figure, footer p, header, header p, hr, main, main p, main ul, aside p, nav ul, ul.cards li, aside ul, ol {margin-bottom: 24px;}
-
-footer p:last-child, header p:last-child, main p:last-child, main ul:last-child, aside ul:last-child, aside p:last-child {margin-bottom: 0;}
+section p:last-child, footer p:last-child, header p:last-child, main p:last-child, main ul:last-child, aside ul:last-child, aside p:last-child {margin-bottom: 0;}
 
 hr {
 	display: block;
@@ -191,12 +178,9 @@ p.pagination + p.pagination {margin: 0 0 24px 0%;}
 
 p.more a:after, p.pagination + p.pagination a:after {content: " ↓";}
 
-a:hover {text-decoration: none;}
+a {color: #241e1a;}
 
-a[target="_blank"]:after {
-	/*text-decoration-style: double;*/
-	/*content: " →";*/
-}
+a:hover {text-decoration: none;}
 
 p.more a, p.pagination a, a.blocklink, a.blocklinknull {
     display: block;
@@ -229,8 +213,8 @@ ul.cards li:last-child {margin-bottom: 24px;}
 
 main ul li::before {
   content: "✸";
-  padding-right: 12px;
-  margin-left: -24px;
+  padding-right: 5px;
+  margin-left: -18px;
 }
 
 main ul.cards li::before {
@@ -304,33 +288,23 @@ footer a.merveilles {
 html.white {background: #f3e9e1;}
 html.white ul li.listing a {background: #f3e9e1;}
 html.white ul li.listing span {background: #f3e9e1;}
-html.white p.more a, html.white p.pagination a, html.white a.blocklink {color: #f3e9e1;}
+html.white p.more a, html.white p.pagination a, html.white a.blocklink, html.white a.blocklinknull {color: #f3e9e1;}
 
-html.red {background: #cd5153;}
-html.red ul li.listing a {background: #cd5153;}
-html.red ul li.listing span {background: #cd5153;}
-html.red p.more a, html.red p.pagination a, html.red a.blocklink {color: #cd5153;}
+html.black {background: #241e1a; color: #f3e9e1;}
+html.black hr {background-image: url(../img/cross-black.svg);}
+html.black a {color: #f3e9e1;}
+html.black ul li.listing a, html.black ul li.listing span {background: #241e1a;}
+html.black p.more a, html.black p.pagination a, html.black a.blocklink, html.black a.blocklinknull {color: #241e1a; background: #f3e9e1; border: 1px solid #f3e9e1;}
+html.black p.more a:hover, html.black p.pagination a:hover, html.black a.blocklink:hover, html.black a.blocklinknull {color: #f3e9e1 !important; background: #241e1a; border: 1px solid #f3e9e1;}
+html.black footer a.cc {background-image: url(../img/cc-black.svg);}
+html.black footer a.rss {background-image: url(../img/rss-black.svg);}
+html.black footer a.merveilles {background-image: url(../img/merveilles-black.svg);}
 
-html.yellow {background: #d7a334;}
-html.yellow ul li.listing a {background: #d7a334;}
-html.yellow ul li.listing span {background: #d7a334;}
-html.yellow p.more a, html.yellow p.pagination a, html.yellow a.blocklink {color: #d7a334;}
-
-html.blue {background: #a2b1af;}
-html.blue ul li.listing a {background: #a2b1af;}
-html.blue ul li.listing span {background: #a2b1af;}
-html.blue p.more a, html.blue p.pagination a, html.blue a.blocklink {color: #a2b1af;}
-
-html.green {background: #afa94d;}
-html.green ul li.listing a {background: #afa94d;}
-html.green ul li.listing span {background: #afa94d;}
-html.green p.more a, html.green p.pagination a, html.green a.blocklink {color: #afa94d;}
-
-.two {font-family: "Charm", cursive; font-size: 18px; line-height: 26px;}
-.notes {font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; line-height: 22px;}
+.red {font-family: "Charm", cursive; font-size: 19px; line-height: 26px; color: #cd5153;}
+.red a {color: #cd5153;}
 
 @media only screen and (max-width: 648px) {
-	.col25, .col25p, .col33, .col50, .col50p, .col75, .col75p, article, aside, figure, figure.tall, footer, h1, h2, header, hr, main, nav, nav ul.logo, p.subtitle, p.more, p.pagination, ul.cards li {width: 100%;}
+	.col25, .col25p, .col33, .col50, .col50p, .col75, .col75p, section, aside, figure, figure.tall, footer, h1, h2, header, hr, main, nav, nav ul.logo, p.subtitle, p.more, p.pagination, ul.cards li {width: 100%;}
 	
 	nav ul {
 		width: 50%;
