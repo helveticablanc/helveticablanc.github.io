@@ -300,8 +300,8 @@ html.black footer a.cc {background-image: url(../img/cc-black.svg);}
 html.black footer a.rss {background-image: url(../img/rss-black.svg);}
 html.black footer a.merveilles {background-image: url(../img/merveilles-black.svg);}
 
-.red {font-family: "Charm", cursive; font-size: 19px; line-height: 26px; color: #cd5153;}
-.red a {color: #cd5153;}
+.red {font-family: "Charm", cursive; font-size: 18px; line-height: 24px; color: #db5746;}
+.red a {color: #db5746;}
 
 @media only screen and (max-width: 648px) {
 	.col25, .col25p, .col33, .col50, .col50p, .col75, .col75p, section, aside, figure, figure.tall, footer, h1, h2, header, hr, main, nav, nav ul.logo, p.subtitle, p.more, p.pagination, ul.cards li {width: 100%;}
