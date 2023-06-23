@@ -8,6 +8,14 @@
 		rel="self" type="application/rss+xml" />
 
 		<item>
+			<title>Update: 2023 06 23</title>
+			<link>http://www.helveticablanc.com</link>
+			<description>New artwork: Oracle and Omen</description>
+			<guid>http://www.helveticablanc.com/index.html?20230623</guid>
+			<pubDate>Fri, 23 Jun 2023 23:00:00 GMT</pubDate>
+		</item>
+
+		<item>
 			<title>Update: 2023 06 16</title>
 			<link>http://www.helveticablanc.com</link>
 			<description>New artwork: Construct and Reach 2</description>
