@@ -8,6 +8,14 @@
 		rel="self" type="application/rss+xml" />
 
 		<item>
+			<title>Update: 2023 07 07</title>
+			<link>http://www.helveticablanc.com</link>
+			<description>New artwork: Lost 2 and Cherub 2</description>
+			<guid>http://www.helveticablanc.com/index.html?20230707</guid>
+			<pubDate>Fri, 07 Jun 2023 23:00:00 GMT</pubDate>
+		</item>
+
+		<item>
 			<title>Update: 2023 06 30</title>
 			<link>http://www.helveticablanc.com</link>
 			<description>New artwork: Telesipa 3 and Descent 4</description>
