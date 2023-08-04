@@ -85,7 +85,7 @@ nav ul li {
 	margin-bottom: 6px;
 }
 
-nav ul li:last-child {
+nav ul li:last-child, .no-bottom {
 	margin-bottom: 0;
 }
 
@@ -180,7 +180,7 @@ p.pagination + p.pagination {margin: 0 0 24px 0%;}
 
 p.more a:after, p.pagination + p.pagination a:after {content: " ↓";}
 
-a {color: #241e1a;}
+a {color: #241e1a; }
 
 a:hover {text-decoration: none;}
 
@@ -300,6 +300,10 @@ html.black footer a.merveilles {background-image: url(../img/merveilles-black.sv
 
 .red {font-family: "Charm", cursive; font-size: 18px; line-height: 24px; color: #db5746;}
 .red a {color: #db5746;}
+
+a[target="_blank"]:after { 	content: " ⇢"; }
+
+.outline {border: 1px solid #241e1a;}
 
 @media only screen and (max-width: 648px) {
 	.col25, .col25p, .col33, .col50, .col50p, .col75, .col75p, section, aside, figure, figure.tall, footer, h1, h2, header, hr, main, nav, nav ul.logo, p.subtitle, p.more, p.pagination, ul.cards li {width: 100%;}
