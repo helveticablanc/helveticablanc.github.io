@@ -159,6 +159,12 @@ nav h1 {
 
 nav h1 a {text-decoration: none;}
 
+.col50p h2 {
+	margin-left: 0px;
+	padding-left: 0px;
+	width: 100%
+}
+
 h3 {
 	font-size: 18px;
 	margin: 0 0 12px 0;
@@ -167,9 +173,15 @@ h3 {
 aside h3:first-of-type, section h3:first-of-type { border-top: 1px solid; padding-top: 5px; }
 
 p.subtitle {
-	margin: 0 0 0px 25%; 
+	margin: 0 0 0px 25%;
 	font-family: Courier, monospace; 
 	font-size: 14px;
+}
+
+.col50p p.subtitle {
+	margin: 0 0 0 0;
+	padding-left: 0px;
+	width: 100%;
 }
 
 p.more, p.pagination {margin: 0 0 24px 25%;}
