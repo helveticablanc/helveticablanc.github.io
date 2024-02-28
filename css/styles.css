@@ -173,7 +173,7 @@ h3 {
 aside h3:first-of-type, section h3:first-of-type { border-top: 1px solid; padding-top: 5px; }
 
 p.subtitle {
-	margin: 0 0 0px 25%;
+	margin: 0 0 0 25%;
 	font-family: Courier, monospace; 
 	font-size: 14px;
 }
@@ -201,7 +201,7 @@ p.more a, p.pagination a, a.blocklink, a.blocklinknull {
     color: #c8bfb8;
     background: #241e1a;
     border: 1px solid #241e1a;
-    padding: 12px;
+    padding: 6px 12px;
     margin: 6px 0;
     border-radius: 5px;
     text-decoration: none;
@@ -301,17 +301,21 @@ html.black footer a.merveilles {background-image: url(../img/merveilles-black.sv
 .red {color: #db5746;}
 .red a {color: #db5746;}
 
-a[target="_blank"]:after { 	content: " ⇢"; }
+/*a[target="_blank"]:after { content: " ⬏"; }*/
+
+a[target="_blank"] { text-decoration-style: double; }
 
 .outline {border: 1px solid #241e1a;}
 
 @media only screen and (max-width: 648px) {
-	.col25, .col25p, .col33, .col50, .col50p, .col75, .col75p, section, aside, figure, figure.tall, footer, h1, h2, header, hr, main, nav, nav ul.logo, p.subtitle, p.more, p.pagination, ul.cards li {width: 100%;}
+	.col25, .col25p, .col33, .col50, .col50p, .col75, .col75p, section, aside, figure, figure.tall, footer, h1, h2, header, hr, main, nav, nav ul.logo, p.subtitle, p.more, ul.cards li {width: 100%;}
 	
 	nav ul {
 		width: 50%;
 		padding: 0 0 0 12px;
 	}
+
+	p.pagination {width: 50%;}
 	
 	nav ul.logo {margin: 0 0 0 12px;}
 	
