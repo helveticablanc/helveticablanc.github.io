@@ -108,8 +108,8 @@ hr {
 	flex: 0 0 auto;
 	align-self: auto;
 	content: " ";
-	background-image: url(../img/cross.svg);
-	background-size: 24px 24px;
+	background-image: url(../img/hr.svg);
+	background-size: 33px 24px;
 	background-position: 12px 0;
 	background-repeat: no-repeat;
 	width: 75%;
@@ -118,6 +118,20 @@ hr {
 	border: none;
 	z-index: 10;
 }
+
+hr.m1 {background-image: url(../img/m1.svg);}
+hr.m2 {background-image: url(../img/m2.svg);}
+hr.m3 {background-image: url(../img/m3.svg);}
+hr.m4 {background-image: url(../img/m4.svg);}
+hr.m5 {background-image: url(../img/m5.svg);}
+hr.m6 {background-image: url(../img/m6.svg);}
+
+hr.u1 {background-image: url(../img/u1.svg);}
+hr.u2 {background-image: url(../img/u2.svg);}
+hr.u3 {background-image: url(../img/u3.svg);}
+hr.u4 {background-image: url(../img/u4.svg);}
+hr.u5 {background-image: url(../img/u5.svg);}
+hr.u6 {background-image: url(../img/u6.svg);}
 
 main hr {
 	background-position: 0 0;
@@ -229,6 +243,19 @@ ol li {margin: 0 0 12px 18px;}
 
 ol li ol {margin-top: 12px; list-style-type: lower-latin;}
 
+ul.choice li {
+	background-size: 24px 24px;
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	padding-left: 36px;
+}
+
+li.hand {background-image: url(../img/hand.svg);}
+li.eye {background-image: url(../img/eye.svg);}
+li.wing {background-image: url(../img/wing.svg);}
+
+li.strike {text-decoration: line-through;}
+
 main ul.cards li::before {
 	content: none;
 }
@@ -289,7 +316,19 @@ html.white ul li.listing span {background: #f3e9e1;}
 html.white p.more a, html.white p.pagination a, html.white a.blocklink, html.white a.blocklinknull {color: #f3e9e1;}
 
 html.black {background: #241e1a; color: #f3e9e1;}
-html.black hr {background-image: url(../img/cross-black.svg);}
+html.black hr {background-image: url(../img/hr-black.svg);}
+html.black hr.m1 {background-image: url(../img/m1-black.svg);}
+html.black hr.m2 {background-image: url(../img/m2-black.svg);}
+html.black hr.m3 {background-image: url(../img/m3-black.svg);}
+html.black hr.m4 {background-image: url(../img/m4-black.svg);}
+html.black hr.m5 {background-image: url(../img/m5-black.svg);}
+html.black hr.m6 {background-image: url(../img/m6-black.svg);}
+html.black hr.u1 {background-image: url(../img/u1-black.svg);}
+html.black hr.u2 {background-image: url(../img/u2-black.svg);}
+html.black hr.u3 {background-image: url(../img/u3-black.svg);}
+html.black hr.u4 {background-image: url(../img/u4-black.svg);}
+html.black hr.u5 {background-image: url(../img/u5-black.svg);}
+html.black hr.u6 {background-image: url(../img/u6-black.svg);}
 html.black a {color: #f3e9e1;}
 html.black ul li.listing a, html.black ul li.listing span {background: #241e1a;}
 html.black p.more a, html.black p.pagination a, html.black a.blocklink, html.black a.blocklinknull {color: #241e1a; background: #f3e9e1; border: 1px solid #f3e9e1;}
@@ -297,6 +336,9 @@ html.black p.more a:hover, html.black p.pagination a:hover, html.black a.blockli
 html.black footer a.cc {background-image: url(../img/cc-black.svg);}
 html.black footer a.rss {background-image: url(../img/rss-black.svg);}
 html.black footer a.merveilles {background-image: url(../img/merveilles-black.svg);}
+html.black li.hand {background-image: url(../img/hand-black.svg);}
+html.black li.eye {background-image: url(../img/eye-black.svg);}
+html.black li.wing {background-image: url(../img/wing-black.svg);}
 
 .red {color: #db5746;}
 .red a {color: #db5746;}
