@@ -46,7 +46,7 @@ section, aside, figure, footer, h1, h2, header, hr, main, nav ul, p.subtitle, p.
 
 .col33 {width: 33%;}
 
-.col50, footer, header, main, p.subtitle, p.more {width: 50%;}
+.col50, nav ul.title, footer, header, main, p.subtitle, p.more {width: 50%;}
 
 .col50p {width: 50%;margin-left: 25%;}
 
