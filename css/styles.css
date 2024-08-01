@@ -70,12 +70,12 @@ nav ul:nth-child(3) {
 }
 
 nav ul.logo {
-	margin: 0px 18px 0 0;
+	margin: -10px 18px 0 0;
 	padding: 0 0px 0 0;
 }
 
 nav ul.logo img {
-	width: 80px;
+	width: 100px;
 	float: right;
 }
 
@@ -90,7 +90,7 @@ nav ul li:last-child, .no-bottom {
 }
 
 nav ul li a:hover:after, ul li.here a:after {
-	content: "✸";
+	content: "⁂";
 	position: absolute;
 	padding-left: 6px;
 	margin-top: 1px;
@@ -136,7 +136,7 @@ hr.u6 {background-image: url(../img/u6.svg);}
 main hr {
 	background-position: 0 0;
 	width: 100%;
-	margin: 36px auto 48px 0%;
+	margin: 24px auto 24px 0%;
 }
 
 /* title font */
@@ -184,7 +184,7 @@ h3 {
 	margin: 0 0 12px 0;
 }
 
-aside h3:first-of-type, section h3:first-of-type { border-top: 1px solid; padding-top: 5px; }
+aside h3:first-of-type, section h3:first-of-type { border-top: 1px solid; margin-top: 6px; padding-top: 6px; }
 
 p.subtitle {
 	margin: 0 0 0 25%;
@@ -290,7 +290,7 @@ footer a.cc {
 	padding-left: 20px;
 	background-image: url(../img/cc.svg);
 	background-size: 14px 14px;
-	background-position: 0 2px;
+	background-position: 0 3px;
 	background-repeat: no-repeat;
 }
 
@@ -298,7 +298,7 @@ footer a.rss {
 	padding-left: 20px;
 	background-image: url(../img/rss.svg);
 	background-size: 12px 12px;
-	background-position: 1px 3px;
+	background-position: 1px 4px;
 	background-repeat: no-repeat;
 }
 
@@ -306,7 +306,7 @@ footer a.merveilles {
 	padding-left: 20px;
 	background-image: url(../img/merveilles.svg);
 	background-size: 14px 14px;
-	background-position: 0 2px;
+	background-position: 0 3px;
 	background-repeat: no-repeat;
 }
 
@@ -359,7 +359,7 @@ a[target="_blank"] { text-decoration-style: double; }
 
 	p.pagination {width: 50%;}
 	
-	nav ul.logo {margin: 0 0 0 12px;}
+	nav ul.logo {margin: 0 0 4px 5px;}
 	
 	nav ul.logo img {float: none;}
 
