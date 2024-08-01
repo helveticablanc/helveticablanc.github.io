@@ -70,7 +70,7 @@ nav ul:nth-child(3) {
 }
 
 nav ul.logo {
-	margin: -10px 18px 0 0;
+	margin: -9px 18px 0 0;
 	padding: 0 0px 0 0;
 }
 
@@ -359,7 +359,7 @@ a[target="_blank"] { text-decoration-style: double; }
 
 	p.pagination {width: 50%;}
 	
-	nav ul.logo {margin: 0 0 4px 5px;}
+	nav ul.logo {margin: 0 0 4px 6px;}
 	
 	nav ul.logo img {float: none;}
 
