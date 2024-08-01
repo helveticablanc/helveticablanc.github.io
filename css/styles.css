@@ -90,7 +90,7 @@ nav ul li:last-child, .no-bottom {
 }
 
 nav ul li a:hover:after, ul li.here a:after {
-	content: "⁂";
+	content: "✷";
 	position: absolute;
 	padding-left: 6px;
 	margin-top: 1px;
