@@ -83,11 +83,34 @@ nav ul li {
 	margin-bottom: 6px;
 }
 
+nav ul:nth-child(3) li.here a, nav ul:nth-child(3) li.from a {
+	padding-right: 8px;
+	background-color: #c2b7ac;
+}
+
+nav ul:nth-child(3) li.heresub a, nav ul:nth-child(3) li.from a:hover {
+	padding-right: 24px;
+	background-color: #c2b7ac;
+}
+
+nav ul:nth-child(3) li.heresub {
+	background: url("../img/spacer.png") repeat-x 0% 55%;
+}
+
+nav ul:nth-child(3) li.from {
+	background: url("../img/spacer.png") repeat-x 0% 55%;
+}
+
+nav ul:nth-child(4) {
+	padding-left: 12px;
+	border-left: solid 1px;
+}
+
 nav ul li:last-child, .no-bottom {
 	margin-bottom: 0;
 }
 
-nav ul li a:hover:after, ul li.here a:after {
+nav ul li a:hover:after, ul li.here a:after, ul li.heresub a:after, ul li.from a:hover:after {
 	content: "✷";
 	position: absolute;
 	padding-left: 6px;
@@ -201,10 +224,10 @@ p.more a, p.pagination a, a.blocklink, a.blocklinknull {
     text-decoration: none;
 }
 
-p.more a:hover, p.pagination a:hover, a.blocklink:hover, a.blocklinknull {
+p.more a:hover, p.pagination a:hover, a.blocklink:hover, a.blocklinknull, a.blocklinknull:hover {
     color: #241e1a !important;
-    background: transparent;
-    border: 1px solid #241e1a;
+    background: transparent !important;
+    border: 1px solid #241e1a !important;
 }
 
 ul {
