@@ -25,7 +25,7 @@ body {
 	line-height: 24px;
 }
 
-nav, ul.cards {
+nav, ul.subnav, ul.cards {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -46,7 +46,7 @@ section, aside, figure, footer, h1, h2, header, hr, main, nav ul, p.subtitle, p.
 
 .col33 {width: 33%;}
 
-.col50, nav ul.title, footer, header, main, p.subtitle, p.more {width: 50%;}
+.col50, nav ul.title, nav ul.subnav, footer, header, main, p.subtitle, p.more {width: 50%;}
 
 .col50p {width: 50%;margin-left: 25%;}
 
@@ -58,6 +58,8 @@ section, aside, figure, footer, h1, h2, header, hr, main, nav ul, p.subtitle, p.
 
 .col100, figure, nav {width: 100%;}
 
+nav {margin-bottom: 48px;}
+
 nav ul {padding: 0;}
 
 nav ul:nth-child(2) {
@@ -67,6 +69,11 @@ nav ul:nth-child(2) {
 nav ul:nth-child(3) {
 	margin-left: 25%;
 	padding-left: 18px;
+}
+
+nav ul.subnav {
+	margin-left: 25%;
+	padding-left: 10px;
 }
 
 nav ul.logo {
@@ -83,12 +90,17 @@ nav ul li {
 	margin-bottom: 6px;
 }
 
-nav ul:nth-child(3) li.here a, nav ul:nth-child(3) li.from a {
+nav ul:nth-child(3) li.here a, nav ul:nth-child(3) li.from a, nav ul.subnav li a {
 	padding-right: 8px;
 	background-color: #c2b7ac;
 }
 
-nav ul:nth-child(3) li.heresub a, nav ul:nth-child(3) li.from a:hover {
+nav ul.subnav li a {
+	padding-left: 8px;
+	background-color: #c2b7ac;
+}
+
+nav ul:nth-child(3) li.heresub a, nav ul:nth-child(3) li.from a:hover, nav ul.subnav li.here a, nav ul.subnav li a:hover {
 	padding-right: 24px;
 	background-color: #c2b7ac;
 }
@@ -97,7 +109,7 @@ nav ul:nth-child(3) li.heresub {
 	background: url("../img/spacer.png") repeat-x 0% 55%;
 }
 
-nav ul:nth-child(3) li.from {
+nav ul:nth-child(3) li.from, nav ul.subnav li {
 	background: url("../img/spacer.png") repeat-x 0% 55%;
 }
 
@@ -106,8 +118,16 @@ nav ul:nth-child(4) {
 	border-left: solid 1px;
 }
 
-nav ul li:last-child, .no-bottom {
+nav ul.subnav li:last-child {
+	background: none;
+}
+
+/*nav ul li:last-child,*/ .no-bottom {
 	margin-bottom: 0;
+}
+
+nav ul.subnav {
+	margin-top: 24px;
 }
 
 nav ul li a:hover:after, ul li.here a:after, ul li.heresub a:after, ul li.from a:hover:after {
@@ -119,7 +139,7 @@ nav ul li a:hover:after, ul li.here a:after, ul li.heresub a:after, ul li.from a
 
 nav ul li h1 a:hover:after {content: none;}
 
-section, section p, aside, figure, footer p, header, header p, hr, main, main p, main ul, aside p, nav ul, ul.cards li, aside ul, ol {margin-bottom: 24px;}
+section, section p, aside, figure, footer p, header, header p, hr, main, main p, main ul, aside p, ul.cards li, aside ul, ol {margin-bottom: 24px;}
 
 section p:last-child, footer p:last-child, header p:last-child, main p:last-child, main ul:last-child, aside ul:last-child, aside p:last-child {margin-bottom: 0;}
 
@@ -135,7 +155,7 @@ hr {
 	background-repeat: no-repeat;
 	width: 75%;
 	height: 24px;
-	margin: 24px auto 48px 25%;
+	margin: 12px auto 36px 25%;
 	border: none;
 	z-index: 10;
 }
@@ -176,6 +196,8 @@ nav h1 {
 	font-size: 42px;
 	line-height: 45px;
 	margin: 0px 0 24px -15px;
+	padding-top: 0;
+	border: none;
 }
 
 nav h1 a {text-decoration: none;}
@@ -191,7 +213,10 @@ h3 {
 	margin: 0 0 12px 0;
 }
 
+/*h1, h2 { border-top: 1px solid; padding-top: 12px; }*/
+
 aside h3:first-of-type, section h3:first-of-type { border-top: 1px solid; margin-top: 6px; padding-top: 6px; }
+
 
 p.subtitle {
 	margin: 0 0 0 25%;
@@ -314,7 +339,7 @@ a[target="_blank"] { text-decoration-style: double; }
 .outline {border: 1px solid #241e1a;}
 
 @media only screen and (max-width: 648px) {
-	.col25, .col25p, .col33, .col50, .col50p, .col75, .col75p, section, aside, figure, figure.tall, footer, h1, h2, header, hr, main, nav, nav ul.logo, p.subtitle, p.more, ul.cards li {width: 100%;}
+	.col25, .col25p, .col33, .col50, .col50p, .col75, .col75p, section, aside, figure, figure.tall, footer, h1, h2, header, hr, main, nav, nav ul.logo, nav ul.subnav, p.subtitle, p.more, ul.cards li {width: 100%;}
 	
 	nav ul {
 		width: 50%;
@@ -333,5 +358,11 @@ a[target="_blank"] { text-decoration-style: double; }
 
 	nav ul:nth-child(3) {padding-left: 12px;}
 
-	.col25p, .col50p, .col75p, nav ul:nth-child(3), footer, h1, h2, header, hr, main, figure.tall, p.subtitle, p.more, p.pagination {margin-left: 0;}
+	nav ul.subnav li {width: 25%;}
+
+	nav ul.subnav li {
+	margin-left: -5px;
+}
+
+	.col25p, .col50p, .col75p, nav ul:nth-child(3), nav ul.subnav, footer, h1, h2, header, hr, main, figure.tall, p.subtitle, p.more, p.pagination {margin-left: 0;}
 }
