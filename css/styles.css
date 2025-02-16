@@ -86,6 +86,10 @@ nav ul.logo img {
 	float: right;
 }
 
+nav ul.grdn {
+	margin-top: -18px;
+}
+
 nav ul li {
 	margin-bottom: 6px;
 }
