@@ -135,7 +135,7 @@ nav ul.subnav {
 }
 
 nav ul li a:hover:after, ul li.here a:after, ul li.heresub a:after, ul li.from a:hover:after {
-	content: "✷";
+	content: "✤";
 	position: absolute;
 	padding-left: 6px;
 	margin-top: 1px;
