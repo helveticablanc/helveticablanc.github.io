@@ -183,6 +183,7 @@ h1, h2 {
 	font-family: "Basteleur Blanc", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: 900;
 	text-transform: uppercase;
+	letter-spacing: -0.5px;
 }
 
 h3 {
